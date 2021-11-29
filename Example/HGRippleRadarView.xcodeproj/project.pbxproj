@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0074A8320B847E8AFDB136BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		35949690D059464887A091A3 /* HGRippleRadarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGRippleRadarView.podspec; path = ../HGRippleRadarView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35949690D059464887A091A3 /* HGRippleRadarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGRippleRadarView.podspec; path = ../HGRippleRadarView.podspec; sourceTree = "<group>"; };
 		37397F9779B88E6AC5A1F7C2 /* Pods_HGRippleRadarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGRippleRadarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB4DCE10D93F9E15F78629F /* Pods-HGRippleRadarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGRippleRadarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGRippleRadarView_Tests/Pods-HGRippleRadarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FBA81E2838B6FD1480A7FB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -183,7 +183,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				29D828A2CC93E0A7A697FD6E /* [CP] Embed Pods Frameworks */,
-				84623BA7C4C649E048C07AC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +201,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				B370A14311E354E94E35A44E /* [CP] Embed Pods Frameworks */,
-				E4F8AFE96A251F47932424B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -301,7 +299,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HGRippleRadarView_Example/Pods-HGRippleRadarView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HGRippleRadarView_Example/Pods-HGRippleRadarView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HGRippleRadarView/HGRippleRadarView.framework",
 				"${BUILT_PRODUCTS_DIR}/TouchVisualizer/TouchVisualizer.framework",
 			);
@@ -312,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGRippleRadarView_Example/Pods-HGRippleRadarView_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HGRippleRadarView_Example/Pods-HGRippleRadarView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		39E0C6607A7146DC38211B04 /* [CP] Check Pods Manifest.lock */ = {
@@ -331,51 +329,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84623BA7C4C649E048C07AC2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGRippleRadarView_Example/Pods-HGRippleRadarView_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B370A14311E354E94E35A44E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGRippleRadarView_Tests/Pods-HGRippleRadarView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E4F8AFE96A251F47932424B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGRippleRadarView_Tests/Pods-HGRippleRadarView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

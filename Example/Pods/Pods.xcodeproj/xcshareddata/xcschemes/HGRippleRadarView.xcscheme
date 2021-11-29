@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD174137A0573FF2157AB109E55D69E3"
+               BlueprintIdentifier = "AD3A46F6BA83BC350FBC948C7F8D498F"
                BuildableName = "HGRippleRadarView.framework"
                BlueprintName = "HGRippleRadarView"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD174137A0573FF2157AB109E55D69E3"
+            BlueprintIdentifier = "AD3A46F6BA83BC350FBC948C7F8D498F"
             BuildableName = "HGRippleRadarView.framework"
             BlueprintName = "HGRippleRadarView"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

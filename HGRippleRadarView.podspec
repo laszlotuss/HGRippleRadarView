@@ -24,21 +24,13 @@ You can also use this library to show views with ripple animation
 DESC
 
   s.homepage         = 'https://github.com/HamzaGhazouani/HGRippleRadarView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/HamzaGhazouani/HGRippleRadarView/raw/master/Screenshots/ripple_example.gif', 'https://github.com/HamzaGhazouani/HGRippleRadarView/raw/master/Screenshots/radar_example_1.gif', 'https://github.com/HamzaGhazouani/HGRippleRadarView/raw/master/Screenshots/radar_example_2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HamzaGhazouani' => 'hamza.ghazouani@gmail.com' }
   s.source           = { :git => 'https://github.com/HamzaGhazouani/HGRippleRadarView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HGRippleRadarView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HGRippleRadarView' => ['HGRippleRadarView/Assets/*.png']
-  # }
+  s.source_files = 'Sources/HGRippleRadarView/**/*.{swift}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
