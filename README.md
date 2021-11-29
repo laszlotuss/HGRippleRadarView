@@ -46,6 +46,16 @@ it, simply add the following line to your Cartfile:
 github "HamzaGhazouani/HGRippleRadarView"
 ```
 
+**Swift Package Manager**
+
+In Xcode, select menu File -> Swift Packages -> Add Package Dependency. Select a target, then add this link to the input field: 
+
+``` ruby
+https://github.com/laszlotuss/HGRippleRadarView.git
+```
+
+*Use master or version 0.1.2 and up.*
+
 ## Usage
 
 1. Change the class of a view from UIView to RippleView or RadarView

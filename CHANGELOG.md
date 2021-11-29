@@ -1,7 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-radarCapacity
+## [0.1.2](https://github.com/laszlotuss/HGRippleRadarView.git)
+
+* Added support for Swift Package Manager
 
 ## [0.1.1](https://github.com/HamzaGhazouani/HGRippleRadarView/releases/tag/0.1.1)
 
